@@ -43,7 +43,7 @@ Este projeto é uma aplicação web simples para gerenciamento de um sorteio de 
 ## Como Usar
 
 1. **Abrir a Aplicação:**  
-   Basta abrir o arquivo `index.html` em seu navegador de preferência ou no seguinte Link: .
+   Basta abrir o arquivo `index.html` em seu navegador de preferência ou no seguinte Link: https://lieonj.github.io/challenge-Amigo-Secreto_pt/ .
 
 2. **Adicionar Amigos:**  
    - Digite o nome de um amigo no campo de entrada.
