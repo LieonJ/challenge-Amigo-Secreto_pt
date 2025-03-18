@@ -20,8 +20,6 @@ function adicionarAmigo(){
     if(nome !== ""){
         amigos.push(nome);
         atualizarLista();
-        console.log(nome);
-        console.log(amigos);
         inputNome.value = "";
         
     }else{
@@ -29,4 +27,17 @@ function adicionarAmigo(){
     }
 }
 
+function sortearAmigo(){
+
+    if(amigos.length === 0){
+        alert("Nenhum amigo disponível");
+        return;
+    }
+
+    const indice = Math.floor(Math.random() * amigos.length);
+
+    const sorteado = amigos[indice];
+
+    document.getElementById("resultado").innerHTML = "Amigo Sorteado: "+ sorteado;
+}
 
